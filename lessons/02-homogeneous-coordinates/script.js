@@ -157,10 +157,10 @@ var box = new WebGLBox();
 //Draw a red box in the middle
 box.draw({
 
-  top    : 0.5,             // x
-  bottom : -0.5,            // x
-  left   : -0.5,            // y
-  right  : 0.5,             // y
+  top    : 0.5,             // y
+  bottom : -0.5,            // y
+  left   : -0.5,            // x
+  right  : 0.5,             // x
   w      : 0.7,             // w - enlarge this box
 
   depth  : 0,               // z
@@ -170,10 +170,10 @@ box.draw({
 //Draw a green box up top
 box.draw({
 
-  top    : 0.9,             // x
-  bottom : 0,               // x
-  left   : -0.9,            // y
-  right  : 0.9,             // y
+  top    : 0.9,             // y
+  bottom : 0,               // y
+  left   : -0.9,            // x
+  right  : 0.9,             // x
   w      : 1.1,             // w - shrink this box
 
   depth  : 0.5,             // z
@@ -184,10 +184,10 @@ box.draw({
 // The W to 1.5 will bring it back into clip space.
 box.draw({
 
-  top    : 1,               // x
-  bottom : -1,              // x
-  left   : -1,              // y
-  right  : 1,               // y
+  top    : 1,               // y
+  bottom : -1,              // y
+  left   : -1,              // x
+  right  : 1,               // x
   w      : 1.5,             // w - Bring this box into range
 
   depth  : -1.5,             // z
